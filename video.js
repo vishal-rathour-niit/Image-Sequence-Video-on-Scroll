@@ -5,7 +5,6 @@
  * @version 1.0.1
  * @description convret-images-to-video
  * @author Vishal Rathour
- * @copyright India Today Group
  */
 
 function videoMaker(el, options){
