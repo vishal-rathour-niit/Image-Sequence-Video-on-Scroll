@@ -1509,5 +1509,3 @@ for matching frame counts and correct asset paths.
 
 ---
 
-## Maintainer
-**Vishal Rathour**
