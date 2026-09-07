@@ -119,6 +119,22 @@ The current library exposes:
 videoMaker
 ```
 
+or by NPM/Yarn
+
+```
+npm i image-sequence-video-on-scroll
+```
+
+```
+yarn add image-sequence-video-on-scroll
+```
+
+**Import**
+
+```
+import videoMaker from 'image-sequence-video-on-scroll';
+```
+
 ---
 
 # Basic HTML
@@ -127,7 +143,6 @@ A container is required for the canvas.
 
 ```html
 <div id="video-container"></div>
-
 <div id="video-scroll-area"></div>
 ```
 
