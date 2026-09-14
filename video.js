@@ -2,8 +2,8 @@
  * video.js
  *
  * @module video
- * @version 1.0.1
- * @description convret-images-to-video
+ * @version 1.2.0
+ * @description A lightweight JavaScript library that transforms a sequence of images into a smooth, scroll-controlled video experience using an HTML5 <canvas>.
  * @author Vishal Rathour
  */
 
@@ -595,3 +595,9 @@ videoMaker.prototype.updateDebug = function(){
         Progress: ${(this.currentFrame/(this.totalFrame-1)).toFixed(3)}
         `;
 };
+
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = videoMaker;
+    module.exports.videoMaker = videoMaker;
+}
+
